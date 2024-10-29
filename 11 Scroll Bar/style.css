@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: wheat;
+    background: #c3c3c3;
+}
+
+.container {
+    background: #141414;
+    width: 30rem;
+    padding: 30px;
+}
+
+.scroll-div {
+    width: 400px;
+    height: 500px;
+    background-color: #141414;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-right: 20px;
+}
+
+/* Custom Scrollbar Styling for .scroll-div */
+.scroll-div::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll-div::-webkit-scrollbar-track {
+    background: #2b2b2b;
+    border-radius: 10px;
+}   
+
+.scroll-div::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius: 10px;
+    border: 2px solid #2b2b2b;
+}
+
+.scroll-div::-webkit-scrollbar-thumb:hover {
+    background-color: #f5deb3;
+}
