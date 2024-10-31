@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    font-family: "Licorice", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+
+.heading{
+    font-size: 10rem;
+    font-weight: 900;
+    background-image: url(Assets/image.png);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
