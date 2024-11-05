@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background: #171717;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 3rem;
+}
+
+.js {
+  color: yellow;
+}
+
+.typed-Text {
+  color: #20c202;
+}
