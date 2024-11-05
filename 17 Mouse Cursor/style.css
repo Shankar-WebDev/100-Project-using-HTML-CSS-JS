@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body {
+  height: 100vh;
+  background: #171717;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 4rem;
+  font-family: 'Playfair Display SC', serif;
+}
+p {
+  color: whitesmoke;
+  max-width: 700px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
+button {
+  margin: 0;
+  background: transparent;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* js */
+
+div.cursor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background: yellow;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
