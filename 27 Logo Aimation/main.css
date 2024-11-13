@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Audiowide",sans-serif ;
+    height: 100vh;
+}
+
+.contianer {
+    background-color:#17181C;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#141414;    
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#svg{
+    height:300px;
+    width:300px;
+    stroke:#3CAFE1;
+    padding:15px;
+    fill-opacity: 0;        
+    stroke-width:3px;
+    stroke-dasharray: 4500;
+    animation: draw 29s ease;
+    
+}   
+
+@keyframes draw {
+    0%{
+        stroke-dashoffset: 4500;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+    
+}   
+
+.name-container{
+    height:30px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.logo-name{
+    color:#3CAFE1;
+    font-size:30px;
+    letter-spacing:2px;
+}
+
+.loader{
+    font-size: 60px;
+}
