@@ -21,7 +21,7 @@ body {
   gap: 1.25rem;
   background-color: #34c759;
   clip-path: circle(20px at calc(100vw - 5vw) 31px);
-  transition: clip-path 0.5s;
+  transition: clip-path 10s;
 }
 
 .menu li {
